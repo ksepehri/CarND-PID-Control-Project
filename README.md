@@ -1,6 +1,17 @@
 # CarND-Controls-PID
 Self-Driving Car Engineer Nanodegree Program
 
+[//]: # (Image References)
+
+[image1]: ./images/results.png "Left"
+
+# Overview
+
+In this project I utilized a PID Controller to determine the steering angle to lower the CTE and keep the vehicle in lane. Passing the project required obtaining hyperparameters (P, I, D coefficients) values that enabled the car to perform at least one lap around the track. I did this with a mix of trial and error and utilizing a second PID controller for throttle. 
+
+
+![alt text][image1]
+
 ---
 
 ## Dependencies
